@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://2bukkan4wna8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bsws8"]
+transparency = 1
+shading_mode = 0
+diffuse_mode = 1
+specular_mode = 2
+albedo_color = Color(1, 1, 1, 0.2901961)
+
+[sub_resource type="SphereMesh" id="SphereMesh_bsws8"]
+material = SubResource("StandardMaterial3D_bsws8")
+radius = 0.4
+height = 0.8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vstb5"]
+transparency = 1
+shading_mode = 0
+diffuse_mode = 1
+specular_mode = 2
+albedo_color = Color(1, 1, 1, 0.44705883)
+
+[sub_resource type="SphereMesh" id="SphereMesh_1kq3a"]
+material = SubResource("StandardMaterial3D_vstb5")
+radius = 0.2
+height = 0.4
+
+[node name="beacon" type="Node3D" unique_id=1660618124]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=15577455]
+mesh = SubResource("SphereMesh_bsws8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=316574361]
+mesh = SubResource("SphereMesh_1kq3a")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1113359595]
+light_color = Color(0.7795986, 0.54743296, 0.6435734, 1)
+light_energy = 4.0
+light_size = 2.0
+light_specular = 1.0
+omni_range = 40.0
+omni_attenuation = 0.0
+omni_shadow_mode = 0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=932125333]
+light_color = Color(0.648477, 0.6012554, 0.72793865, 1)
+light_energy = 2.0
+light_indirect_energy = 8.635
+light_volumetric_fog_energy = 4.81
+light_size = 2.0
+light_specular = 2.0
+omni_range = 4.0
+omni_attenuation = 0.0
+omni_shadow_mode = 0

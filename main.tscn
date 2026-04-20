@@ -1,0 +1,415 @@
+[gd_scene format=3 uid="uid://bjue226hcnred"]
+
+[ext_resource type="Script" uid="uid://pkf6jodghw33" path="res://main.gd" id="1_4lmeg"]
+[ext_resource type="PackedScene" uid="uid://t7nyrp0ialpy" path="res://blocks/circle_large_01.tscn" id="1_h8e4i"]
+[ext_resource type="PackedScene" uid="uid://70g03ula0lma" path="res://maps/house.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://ddb1cwlwsxc2o" path="res://blocks/circle_large_02.tscn" id="2_4lmeg"]
+[ext_resource type="PackedScene" uid="uid://dgijaywrtiie3" path="res://blocks/circle_small_01.tscn" id="3_0cp0l"]
+[ext_resource type="PackedScene" uid="uid://bwkjjexxdgiix" path="res://blocks/circle_small_02.tscn" id="4_d2t1y"]
+[ext_resource type="PackedScene" uid="uid://bbw56u10ibve3" path="res://blocks/circle_small_03.tscn" id="5_gngh3"]
+[ext_resource type="PackedScene" uid="uid://dngh7k4oiv543" path="res://blocks/circle_small_04.tscn" id="6_0n3wm"]
+[ext_resource type="PackedScene" uid="uid://c5yxkrm6c8csg" path="res://blocks/diamond_large_01.tscn" id="7_qnost"]
+[ext_resource type="PackedScene" uid="uid://c1nn5x8w7fs5p" path="res://blocks/circle_small_05.tscn" id="8_5dllo"]
+[ext_resource type="PackedScene" uid="uid://che4v28udjds4" path="res://blocks/diamond_large_02.tscn" id="8_wnkbs"]
+[ext_resource type="PackedScene" uid="uid://b0yjgjqmdpn61" path="res://blocks/diamond_small_01.tscn" id="9_f6a44"]
+[ext_resource type="PackedScene" uid="uid://bxs5t5ththdk0" path="res://blocks/circle_small_06.tscn" id="9_phcyf"]
+[ext_resource type="PackedScene" uid="uid://068gu40fhu31" path="res://blocks/diamond_small_02.tscn" id="10_0cbny"]
+[ext_resource type="PackedScene" uid="uid://ddsmc88xyhl0b" path="res://blocks/diamond_small_03.tscn" id="11_hrvbo"]
+[ext_resource type="PackedScene" uid="uid://bc1fdt0b2j2m1" path="res://blocks/diamond_small_04.tscn" id="12_uypp3"]
+[ext_resource type="PackedScene" uid="uid://cxsowt3ne8c5w" path="res://blocks/diamond_small_05.tscn" id="13_blkrb"]
+[ext_resource type="PackedScene" uid="uid://bkhias47shm27" path="res://blocks/diamond_small_06.tscn" id="14_abqjc"]
+[ext_resource type="PackedScene" uid="uid://ti55x77f8cbq" path="res://blocks/rectangle_long_01.tscn" id="15_6iyjs"]
+[ext_resource type="PackedScene" uid="uid://do2tv6djvpjsb" path="res://blocks/rectangle_long_02.tscn" id="16_4w656"]
+[ext_resource type="PackedScene" uid="uid://duxhiplqlb2tb" path="res://blocks/rectangle_medium_01.tscn" id="17_e71vb"]
+[ext_resource type="PackedScene" uid="uid://clay0ymu7srkl" path="res://blocks/rectangle_huge_01.tscn" id="18_birbe"]
+[ext_resource type="PackedScene" uid="uid://dq0d3xux5u7rm" path="res://blocks/rectangle_medium_02.tscn" id="18_rnkwl"]
+[ext_resource type="PackedScene" uid="uid://p2tc5og6d2gd" path="res://blocks/rectangle_huge_02.tscn" id="19_f1p13"]
+[ext_resource type="PackedScene" uid="uid://bfosom8ldca4w" path="res://blocks/rectangle_short_01.tscn" id="19_vke2r"]
+[ext_resource type="PackedScene" uid="uid://ehtnftservfi" path="res://blocks/rectangle_short_02.tscn" id="20_uit24"]
+[ext_resource type="PackedScene" uid="uid://0t65l6rv1t3s" path="res://blocks/square_large_01.tscn" id="21_ruth0"]
+[ext_resource type="PackedScene" uid="uid://1r88ea3igno6" path="res://blocks/rectangle_long_03.tscn" id="22_4obbf"]
+[ext_resource type="PackedScene" uid="uid://ciash7jdar6ib" path="res://blocks/square_large_02.tscn" id="22_rm4vd"]
+[ext_resource type="PackedScene" uid="uid://dt3l8442u6lrk" path="res://blocks/rectangle_long_04.tscn" id="23_ovcoh"]
+[ext_resource type="PackedScene" uid="uid://cna6wx5nbt0wl" path="res://blocks/square_large_03.tscn" id="23_pjyto"]
+[ext_resource type="PackedScene" uid="uid://o5tt4a814e6a" path="res://blocks/square_large_04.tscn" id="24_sm6fg"]
+[ext_resource type="PackedScene" uid="uid://c3vqldy3v7fg8" path="res://blocks/square_small_01.tscn" id="25_b17eg"]
+[ext_resource type="PackedScene" uid="uid://bxnj3bwp1lawl" path="res://blocks/square_small_02.tscn" id="26_ntx8l"]
+[ext_resource type="PackedScene" uid="uid://r02rqitlo6i2" path="res://blocks/rectangle_medium_03.tscn" id="26_ppx11"]
+[ext_resource type="PackedScene" uid="uid://dhskk5gvbghov" path="res://blocks/rectangle_medium_04.tscn" id="27_1yv1y"]
+[ext_resource type="PackedScene" uid="uid://dd4a8vbh3xhto" path="res://blocks/square_small_03.tscn" id="27_uatky"]
+[ext_resource type="PackedScene" uid="uid://bv4e7o75qg85c" path="res://blocks/rectangle_medium_05.tscn" id="28_5yh34"]
+[ext_resource type="PackedScene" uid="uid://dw5ftsrorksu6" path="res://blocks/square_small_04.tscn" id="28_rqtf5"]
+[ext_resource type="PackedScene" uid="uid://bm6574b4qrkt2" path="res://blocks/square_small_05.tscn" id="29_1vm84"]
+[ext_resource type="PackedScene" uid="uid://xp7ipuvfx6f" path="res://blocks/rectangle_medium_06.tscn" id="29_pjuso"]
+[ext_resource type="PackedScene" uid="uid://con1w45mrdog6" path="res://blocks/square_small_06.tscn" id="30_wu3dr"]
+[ext_resource type="PackedScene" uid="uid://kva2y2k4tu5b" path="res://blocks/square_small_07.tscn" id="31_cyx1q"]
+[ext_resource type="PackedScene" uid="uid://cnvsegvd5ren6" path="res://blocks/square_small_08.tscn" id="32_0dhbp"]
+[ext_resource type="PackedScene" uid="uid://dkt4a8emn2iya" path="res://blocks/rectangle_short_03.tscn" id="32_23xmf"]
+[ext_resource type="PackedScene" uid="uid://wb0dy40r2oyx" path="res://blocks/triangle_large_01.tscn" id="33_jx0wj"]
+[ext_resource type="PackedScene" uid="uid://wlmwcycwee6u" path="res://blocks/rectangle_short_04.tscn" id="33_swlj1"]
+[ext_resource type="PackedScene" uid="uid://3uxgaxfkn1j8" path="res://blocks/triangle_large_02.tscn" id="34_kkkcx"]
+[ext_resource type="PackedScene" uid="uid://8glyrlqbhjco" path="res://blocks/rectangle_short_05.tscn" id="34_yysqy"]
+[ext_resource type="PackedScene" uid="uid://cdhg0i525y2jg" path="res://blocks/triangle_small_01.tscn" id="35_34ol3"]
+[ext_resource type="PackedScene" uid="uid://bjt1qg2qapt6u" path="res://blocks/rectangle_short_06.tscn" id="35_n5t1e"]
+[ext_resource type="PackedScene" uid="uid://vbtl63cworpc" path="res://blocks/triangle_small_02.tscn" id="36_c2n8d"]
+[ext_resource type="PackedScene" uid="uid://cpd3pbquaunre" path="res://blocks/rectangle_short_07.tscn" id="36_h6isl"]
+[ext_resource type="PackedScene" uid="uid://dlm7gxwtppamv" path="res://blocks/rectangle_short_08.tscn" id="37_53bls"]
+[ext_resource type="PackedScene" uid="uid://d064p6x8hlmmk" path="res://blocks/triangle_small_03.tscn" id="37_wy5fy"]
+[ext_resource type="PackedScene" uid="uid://b7wh4nvjal5t6" path="res://blocks/triangle_small_04.tscn" id="38_gx4rg"]
+[ext_resource type="PackedScene" uid="uid://ofdianw5gi72" path="res://blocks/square_huge_01.tscn" id="40_gngh3"]
+[ext_resource type="PackedScene" uid="uid://b8erqp0t11tos" path="res://blocks/square_huge_02.tscn" id="41_0n3wm"]
+[ext_resource type="PackedScene" uid="uid://b3qxdpcmu33r2" path="res://blocks/square_huge_03.tscn" id="42_qnost"]
+[ext_resource type="PackedScene" uid="uid://dfeidkqr2ulks" path="res://blocks/square_huge_04.tscn" id="43_wnkbs"]
+[ext_resource type="PackedScene" uid="uid://cbdn5446c2apq" path="res://blocks/square_large_05.tscn" id="46_lwnsi"]
+[ext_resource type="PackedScene" uid="uid://by5olj261hp0c" path="res://blocks/square_large_06.tscn" id="47_41lik"]
+[ext_resource type="PackedScene" uid="uid://5xpyy2oywtom" path="res://blocks/square_long_01.tscn" id="48_jbvwl"]
+[ext_resource type="PackedScene" uid="uid://dupgkmyclmbst" path="res://blocks/square_long_02.tscn" id="49_sn1fb"]
+[ext_resource type="PackedScene" uid="uid://458es4ws2xdy" path="res://blocks/triangle_huge_01.tscn" id="58_yvsr8"]
+[ext_resource type="PackedScene" uid="uid://cujsi4pm7tfnv" path="res://blocks/triangle_huge_02.tscn" id="59_vieuh"]
+[ext_resource type="PackedScene" uid="uid://bh5jeorjhxfyc" path="res://blocks/triangle_large_03.tscn" id="62_yjja3"]
+[ext_resource type="PackedScene" uid="uid://d22m5twg6kcd" path="res://blocks/triangle_large_04.tscn" id="63_l0gw7"]
+[ext_resource type="PackedScene" uid="uid://dyanerrt37abx" path="res://blocks/triangle_long_01.tscn" id="64_inymm"]
+[ext_resource type="PackedScene" uid="uid://dgas2o867arl7" path="res://blocks/triangle_long_02.tscn" id="65_jcxqu"]
+[ext_resource type="PackedScene" uid="uid://h8ko5rhm6kb1" path="res://blocks/triangle_long_03.tscn" id="66_0arob"]
+[ext_resource type="PackedScene" uid="uid://bempabg35m3om" path="res://blocks/triangle_long_04.tscn" id="67_dij0e"]
+[ext_resource type="PackedScene" uid="uid://bv3vsylpt6dig" path="res://blocks/triangle_long_05.tscn" id="68_k1udn"]
+[ext_resource type="PackedScene" uid="uid://da0xj5xhwky4m" path="res://blocks/triangle_long_06.tscn" id="69_wat4s"]
+[ext_resource type="PackedScene" uid="uid://10xn7bm0xals" path="res://blocks/triangle_small_05.tscn" id="74_ywjan"]
+[ext_resource type="PackedScene" uid="uid://dl4y2p7dy3hys" path="res://blocks/triangle_small_06.tscn" id="75_m74q3"]
+[ext_resource type="PackedScene" uid="uid://cmwg7jnybpwer" path="res://blocks/triangle_small_07.tscn" id="76_tko6h"]
+[ext_resource type="PackedScene" uid="uid://ca5v64g80jsj3" path="res://blocks/triangle_small_08.tscn" id="77_am8a1"]
+[ext_resource type="PackedScene" uid="uid://c2jlfagun8i38" path="res://maps/platforms.tscn" id="79_phcyf"]
+[ext_resource type="PackedScene" uid="uid://0amimbnktwuy" path="res://maps/scatter.tscn" id="80_birbe"]
+[ext_resource type="PackedScene" uid="uid://j3pk5qb4tiwi" path="res://maps/stars.tscn" id="81_f1p13"]
+[ext_resource type="PackedScene" uid="uid://cy2vffalhngqe" path="res://maps/runway.tscn" id="82_4obbf"]
+[ext_resource type="PackedScene" uid="uid://b1pfu7et4sh75" path="res://maps/cube.tscn" id="83_ovcoh"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kek77"]
+radius = 0.2
+height = 1.2
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_5dllo"]
+height = 0.2
+radius = 0.2
+
+[sub_resource type="Environment" id="Environment_phcyf"]
+background_mode = 1
+background_color = Color(0.1654185, 0.30387622, 0.36645323, 1)
+
+[node name="top" type="Node3D" unique_id=2112564143]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
+script = ExtResource("1_4lmeg")
+
+[node name="< blocks >" type="Node3D" parent="." unique_id=292880750]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
+
+[node name="circle_large_01" parent="< blocks >" unique_id=247912631 instance=ExtResource("1_h8e4i")]
+collision_layer = 2
+
+[node name="circle_large_02" parent="< blocks >" unique_id=1863289023 instance=ExtResource("2_4lmeg")]
+collision_layer = 2
+
+[node name="circle_small_01" parent="< blocks >" unique_id=693402424 instance=ExtResource("3_0cp0l")]
+collision_layer = 2
+
+[node name="circle_small_02" parent="< blocks >" unique_id=1823977516 instance=ExtResource("4_d2t1y")]
+collision_layer = 2
+
+[node name="circle_small_03" parent="< blocks >" unique_id=249819746 instance=ExtResource("5_gngh3")]
+collision_layer = 2
+
+[node name="circle_small_04" parent="< blocks >" unique_id=1199304163 instance=ExtResource("6_0n3wm")]
+collision_layer = 2
+
+[node name="circle_small_05" parent="< blocks >" unique_id=1644645855 instance=ExtResource("8_5dllo")]
+collision_layer = 2
+
+[node name="circle_small_06" parent="< blocks >" unique_id=1491728238 instance=ExtResource("9_phcyf")]
+collision_layer = 2
+
+[node name="diamond_large_01" parent="< blocks >" unique_id=843397517 instance=ExtResource("7_qnost")]
+collision_layer = 2
+
+[node name="diamond_large_02" parent="< blocks >" unique_id=1101588389 instance=ExtResource("8_wnkbs")]
+collision_layer = 2
+
+[node name="diamond_small_01" parent="< blocks >" unique_id=409208922 instance=ExtResource("9_f6a44")]
+collision_layer = 2
+
+[node name="diamond_small_02" parent="< blocks >" unique_id=1048792524 instance=ExtResource("10_0cbny")]
+collision_layer = 2
+
+[node name="diamond_small_03" parent="< blocks >" unique_id=866962132 instance=ExtResource("11_hrvbo")]
+collision_layer = 2
+
+[node name="diamond_small_04" parent="< blocks >" unique_id=1875443460 instance=ExtResource("12_uypp3")]
+collision_layer = 2
+
+[node name="diamond_small_05" parent="< blocks >" unique_id=1306379265 instance=ExtResource("13_blkrb")]
+collision_layer = 2
+
+[node name="diamond_small_06" parent="< blocks >" unique_id=217201519 instance=ExtResource("14_abqjc")]
+collision_layer = 2
+
+[node name="rectangle_huge_01" parent="< blocks >" unique_id=373847971 instance=ExtResource("18_birbe")]
+collision_layer = 2
+
+[node name="rectangle_long_01" parent="< blocks >" unique_id=1687026162 instance=ExtResource("19_f1p13")]
+collision_layer = 2
+
+[node name="rectangle_long_02" parent="< blocks >" unique_id=1628322648 instance=ExtResource("15_6iyjs")]
+collision_layer = 2
+
+[node name="rectangle_long_03" parent="< blocks >" unique_id=540204317 instance=ExtResource("16_4w656")]
+collision_layer = 2
+
+[node name="rectangle_long_04" parent="< blocks >" unique_id=1220218878 instance=ExtResource("22_4obbf")]
+collision_layer = 2
+
+[node name="rectangle_long_05" parent="< blocks >" unique_id=339742363 instance=ExtResource("23_ovcoh")]
+collision_layer = 2
+
+[node name="rectangle_medium_01" parent="< blocks >" unique_id=1199431916 instance=ExtResource("17_e71vb")]
+collision_layer = 2
+
+[node name="rectangle_medium_02" parent="< blocks >" unique_id=648057962 instance=ExtResource("18_rnkwl")]
+collision_layer = 2
+
+[node name="rectangle_medium_03" parent="< blocks >" unique_id=290239318 instance=ExtResource("26_ppx11")]
+collision_layer = 2
+
+[node name="rectangle_medium_04" parent="< blocks >" unique_id=1488672591 instance=ExtResource("27_1yv1y")]
+collision_layer = 2
+
+[node name="rectangle_medium_05" parent="< blocks >" unique_id=32957247 instance=ExtResource("28_5yh34")]
+collision_layer = 2
+
+[node name="rectangle_medium_06" parent="< blocks >" unique_id=1720539378 instance=ExtResource("29_pjuso")]
+collision_layer = 2
+
+[node name="rectangle_short_01" parent="< blocks >" unique_id=903232447 instance=ExtResource("19_vke2r")]
+collision_layer = 2
+
+[node name="rectangle_short_02" parent="< blocks >" unique_id=1955128082 instance=ExtResource("20_uit24")]
+collision_layer = 2
+
+[node name="rectangle_short_03" parent="< blocks >" unique_id=23915545 instance=ExtResource("32_23xmf")]
+collision_layer = 2
+
+[node name="rectangle_short_04" parent="< blocks >" unique_id=890442940 instance=ExtResource("33_swlj1")]
+collision_layer = 2
+
+[node name="rectangle_short_05" parent="< blocks >" unique_id=361804457 instance=ExtResource("34_yysqy")]
+collision_layer = 2
+
+[node name="rectangle_short_06" parent="< blocks >" unique_id=1371883106 instance=ExtResource("35_n5t1e")]
+collision_layer = 2
+
+[node name="rectangle_short_07" parent="< blocks >" unique_id=1624996768 instance=ExtResource("36_h6isl")]
+collision_layer = 2
+
+[node name="rectangle_short_08" parent="< blocks >" unique_id=1595570210 instance=ExtResource("37_53bls")]
+collision_layer = 2
+
+[node name="square_huge_01" parent="< blocks >" unique_id=1883135655 instance=ExtResource("40_gngh3")]
+collision_layer = 2
+
+[node name="square_huge_02" parent="< blocks >" unique_id=743100248 instance=ExtResource("41_0n3wm")]
+collision_layer = 2
+
+[node name="square_huge_03" parent="< blocks >" unique_id=1948556278 instance=ExtResource("42_qnost")]
+collision_layer = 2
+
+[node name="square_huge_04" parent="< blocks >" unique_id=758682953 instance=ExtResource("43_wnkbs")]
+collision_layer = 2
+
+[node name="square_large_01" parent="< blocks >" unique_id=1188486494 instance=ExtResource("21_ruth0")]
+collision_layer = 2
+
+[node name="square_large_02" parent="< blocks >" unique_id=92723003 instance=ExtResource("22_rm4vd")]
+collision_layer = 2
+
+[node name="square_large_03" parent="< blocks >" unique_id=612478302 instance=ExtResource("23_pjyto")]
+collision_layer = 2
+
+[node name="square_large_04" parent="< blocks >" unique_id=306295200 instance=ExtResource("24_sm6fg")]
+collision_layer = 2
+
+[node name="square_large_05" parent="< blocks >" unique_id=33254137 instance=ExtResource("46_lwnsi")]
+collision_layer = 2
+
+[node name="square_large_06" parent="< blocks >" unique_id=197063970 instance=ExtResource("47_41lik")]
+collision_layer = 2
+
+[node name="square_long_01" parent="< blocks >" unique_id=600213043 instance=ExtResource("48_jbvwl")]
+collision_layer = 2
+
+[node name="square_long_02" parent="< blocks >" unique_id=787936030 instance=ExtResource("49_sn1fb")]
+collision_layer = 2
+
+[node name="square_small_01" parent="< blocks >" unique_id=1206167044 instance=ExtResource("25_b17eg")]
+collision_layer = 2
+
+[node name="square_small_02" parent="< blocks >" unique_id=1816848780 instance=ExtResource("26_ntx8l")]
+collision_layer = 2
+
+[node name="square_small_03" parent="< blocks >" unique_id=1441794100 instance=ExtResource("27_uatky")]
+collision_layer = 2
+
+[node name="square_small_04" parent="< blocks >" unique_id=326534148 instance=ExtResource("28_rqtf5")]
+collision_layer = 2
+
+[node name="square_small_05" parent="< blocks >" unique_id=1433750135 instance=ExtResource("29_1vm84")]
+collision_layer = 2
+
+[node name="square_small_06" parent="< blocks >" unique_id=1443553505 instance=ExtResource("30_wu3dr")]
+collision_layer = 2
+
+[node name="square_small_07" parent="< blocks >" unique_id=831388971 instance=ExtResource("31_cyx1q")]
+collision_layer = 2
+
+[node name="square_small_08" parent="< blocks >" unique_id=1119334239 instance=ExtResource("32_0dhbp")]
+collision_layer = 2
+
+[node name="triangle_huge_01" parent="< blocks >" unique_id=1499528636 instance=ExtResource("58_yvsr8")]
+collision_layer = 2
+
+[node name="triangle_huge_02" parent="< blocks >" unique_id=1904150049 instance=ExtResource("59_vieuh")]
+collision_layer = 2
+
+[node name="triangle_large_01" parent="< blocks >" unique_id=929941392 instance=ExtResource("33_jx0wj")]
+collision_layer = 2
+
+[node name="triangle_large_02" parent="< blocks >" unique_id=1927679011 instance=ExtResource("34_kkkcx")]
+collision_layer = 2
+
+[node name="triangle_large_03" parent="< blocks >" unique_id=2067329559 instance=ExtResource("62_yjja3")]
+collision_layer = 2
+
+[node name="triangle_large_04" parent="< blocks >" unique_id=1610179895 instance=ExtResource("63_l0gw7")]
+collision_layer = 2
+
+[node name="triangle_long_01" parent="< blocks >" unique_id=1649809432 instance=ExtResource("64_inymm")]
+collision_layer = 2
+
+[node name="triangle_long_02" parent="< blocks >" unique_id=242368887 instance=ExtResource("65_jcxqu")]
+collision_layer = 2
+
+[node name="triangle_long_03" parent="< blocks >" unique_id=1767144975 instance=ExtResource("66_0arob")]
+collision_layer = 2
+
+[node name="triangle_long_04" parent="< blocks >" unique_id=858520759 instance=ExtResource("67_dij0e")]
+collision_layer = 2
+
+[node name="triangle_long_05" parent="< blocks >" unique_id=1739464927 instance=ExtResource("68_k1udn")]
+collision_layer = 2
+
+[node name="triangle_long_06" parent="< blocks >" unique_id=1460121575 instance=ExtResource("69_wat4s")]
+collision_layer = 2
+
+[node name="triangle_small_01" parent="< blocks >" unique_id=1103724968 instance=ExtResource("35_34ol3")]
+collision_layer = 2
+
+[node name="triangle_small_02" parent="< blocks >" unique_id=1505823744 instance=ExtResource("36_c2n8d")]
+collision_layer = 2
+
+[node name="triangle_small_03" parent="< blocks >" unique_id=1702075467 instance=ExtResource("37_wy5fy")]
+collision_layer = 2
+
+[node name="triangle_small_04" parent="< blocks >" unique_id=1696434963 instance=ExtResource("38_gx4rg")]
+collision_layer = 2
+
+[node name="triangle_small_05" parent="< blocks >" unique_id=89445485 instance=ExtResource("74_ywjan")]
+collision_layer = 2
+
+[node name="triangle_small_06" parent="< blocks >" unique_id=1228647217 instance=ExtResource("75_m74q3")]
+collision_layer = 2
+
+[node name="triangle_small_07" parent="< blocks >" unique_id=1234172397 instance=ExtResource("76_tko6h")]
+collision_layer = 2
+
+[node name="triangle_small_08" parent="< blocks >" unique_id=779028058 instance=ExtResource("77_am8a1")]
+collision_layer = 2
+
+[node name="< maps >" type="Node3D" parent="." unique_id=1553701854]
+
+[node name="house" parent="< maps >" unique_id=1831183033 instance=ExtResource("2_0xm2m")]
+transform = Transform3D(0.9999998, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 0, 0, 0)
+
+[node name="scatter" parent="< maps >" unique_id=796729530 instance=ExtResource("80_birbe")]
+transform = Transform3D(0.9999991, 0, 0, 0, 1, 0, 0, 0, 0.9999991, 22.999971, 8, -1.9999896)
+
+[node name="platforms" parent="< maps >" unique_id=629706614 instance=ExtResource("79_phcyf")]
+transform = Transform3D(-0.47922128, 0.365127, 0.798139, 0.74500966, 0.64997435, 0.14997494, -0.4640108, 0.6664927, -0.5835049, 69.99985, -2, -39.999992)
+
+[node name="stars_01" parent="< maps >" unique_id=1751702325 instance=ExtResource("81_f1p13")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
+
+[node name="stars_02" parent="< maps >" unique_id=2065360093 instance=ExtResource("81_f1p13")]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, 0, 0, 0)
+
+[node name="stars_03" parent="< maps >" unique_id=1573221608 instance=ExtResource("81_f1p13")]
+transform = Transform3D(-0.99999994, 0, -8.742277e-08, 0, 1, 0, 8.742277e-08, 0, -0.99999994, 0, 0, 0)
+
+[node name="stars_04" parent="< maps >" unique_id=188623366 instance=ExtResource("81_f1p13")]
+transform = Transform3D(1.192488e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 1.192488e-08, 0, 0, 0)
+
+[node name="runway" parent="< maps >" unique_id=515392653 instance=ExtResource("82_4obbf")]
+transform = Transform3D(0.7391982, 0.28032997, -0.61237186, 0.48986724, 0.40018746, 0.7745184, 0.46218425, -0.8725045, 0.15849338, 81.99989, 29, -3.9999971)
+
+[node name="cube" parent="< maps >" unique_id=872161607 instance=ExtResource("83_ovcoh")]
+transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 79.999954, -27, -10.999995)
+
+[node name="cube2" parent="< maps >" unique_id=852207769 instance=ExtResource("83_ovcoh")]
+transform = Transform3D(-0.7071064, 0.6123721, 0.35355327, 0, -0.50000006, 0.8660254, 0.70710635, 0.61237204, 0.35355324, 40.99998, 0, 44.999973)
+
+[node name="debug_light" type="OmniLight3D" parent="." unique_id=428436240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 9, 0)
+visible = false
+light_energy = 14.143
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 0.0
+light_specular = 1.016
+omni_range = 96.0
+
+[node name="player" type="CharacterBody3D" parent="." unique_id=80739948]
+transform = Transform3D(-4.3711367e-08, 0, 0.99999946, 0, 1, 0, -0.99999946, 0, -4.3711367e-08, 2.0999997, 0.1, -8.344649e-07)
+visible = false
+collision_mask = 2
+wall_min_slide_angle = 0.0
+floor_constant_speed = true
+floor_block_on_wall = false
+floor_max_angle = 1.0471976
+floor_snap_length = 0.0
+platform_on_leave = 2
+
+[node name="receiver" type="Node3D" parent="player" unique_id=804221194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="head" type="Node3D" parent="player" unique_id=1002178472]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, 0, 0.8, 0)
+
+[node name="camera" type="Camera3D" parent="player/head" unique_id=20038578]
+transform = Transform3D(1.0000004, 0, 0, 0, 1, 0, 0, 0, 1.0000004, 0, 0.2, 0)
+current = true
+
+[node name="collision_shape" type="CollisionShape3D" parent="player" unique_id=657394815]
+transform = Transform3D(0.99999225, 0, 0, 0, 1, 0, 0, 0, 0.99999225, 0, 0.6, 0)
+shape = SubResource("CapsuleShape3D_kek77")
+
+[node name="shape_cast" type="ShapeCast3D" parent="player" unique_id=1794053790]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, 0, 0.21, 0)
+shape = SubResource("CylinderShape3D_5dllo")
+target_position = Vector3(0, -3.6, 0)
+max_results = 1
+collision_mask = 2
+
+[node name="block_check" type="Area3D" parent="player" unique_id=497475954]
+collision_mask = 2
+
+[node name="collision_shape" type="CollisionShape3D" parent="player/block_check" unique_id=1363271887]
+transform = Transform3D(0.99999225, 0, 0, 0, 1, 0, 0, 0, 0.99999225, 0, 0.6, 0)
+shape = SubResource("CapsuleShape3D_kek77")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1357119736]
+environment = SubResource("Environment_phcyf")

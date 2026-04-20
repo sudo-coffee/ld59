@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://ddsmc88xyhl0b"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_yj4bn"]
+left_to_right = 0.0
+size = Vector3(1, 1, 0.1)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ig5h8"]
+points = PackedVector3Array(0, 0, 0, 0, 0.2, 0, 1, 0, 0, 1, 0.2, 0, 0, 0, 1, 0, 0.2, 1)
+
+[node name="diamond_small_03" type="StaticBody3D" unique_id=247912631]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1679718842]
+transform = Transform3D(-2.1855694e-08, 0.5, 4.371139e-08, 0, -2.1855694e-08, 1, 0.5, 2.1855694e-08, 1.9106855e-15, 0.75, 0.05, 0.75)
+mesh = SubResource("PrismMesh_yj4bn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1693136300]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.5, 0, 0.5)
+shape = SubResource("ConvexPolygonShape3D_ig5h8")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1645556061]
+transform = Transform3D(-0.5, -7.54979e-08, -6.600236e-15, 0, -2.1855694e-08, 1, -7.54979e-08, 0.5, 4.371139e-08, 0.25, 0.05, 0.75)
+mesh = SubResource("PrismMesh_yj4bn")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=412446540]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, 0.5, 0, 0.5)
+shape = SubResource("ConvexPolygonShape3D_ig5h8")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=1074760995]
+transform = Transform3D(-2.1855694e-08, -0.5, -4.371139e-08, 0, -2.1855694e-08, 1, -0.5, 2.1855694e-08, 1.9106855e-15, 0.25, 0.05, 0.25)
+mesh = SubResource("PrismMesh_yj4bn")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." unique_id=1007846673]
+transform = Transform3D(-0.5, 0, -7.54979e-08, 0, 0.5, 0, 7.54979e-08, 0, -0.5, 0.5, 0, 0.5)
+shape = SubResource("ConvexPolygonShape3D_ig5h8")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=1886246030]
+transform = Transform3D(0.5, 0, 0, 0, -2.1855694e-08, 1, 0, -0.5, -4.371139e-08, 0.75, 0.05, 0.25)
+mesh = SubResource("PrismMesh_yj4bn")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." unique_id=1013198191]
+transform = Transform3D(-2.1855694e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.1855694e-08, 0.5, 0, 0.5)
+shape = SubResource("ConvexPolygonShape3D_ig5h8")

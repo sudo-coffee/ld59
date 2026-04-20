@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://cakpghrdmqs3n"]
+
+[ext_resource type="PackedScene" uid="uid://xmnrkti2xvvq" path="res://test_blocks/test_block_01.tscn" id="1_5vw27"]
+[ext_resource type="PackedScene" uid="uid://32ffi18kg783" path="res://test_maps/test_map_01.tscn" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://pkf6jodghw33" path="res://main.gd" id="1_nedis"]
+[ext_resource type="PackedScene" uid="uid://d08fgrk507yte" path="res://test_blocks/test_block_02.tscn" id="2_kek77"]
+[ext_resource type="PackedScene" uid="uid://yuau2lirtegs" path="res://test_blocks/test_block_03.tscn" id="3_4c57u"]
+[ext_resource type="PackedScene" uid="uid://bom67u7vllsqa" path="res://test_maps/test_map_02.tscn" id="3_lquwl"]
+[ext_resource type="Script" uid="uid://b6fs0uccetpg4" path="res://debug.gd" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://bgynpfwe702e1" path="res://test_maps/test_map_03.tscn" id="4_7mycd"]
+[ext_resource type="PackedScene" uid="uid://ld68ayaob8in" path="res://test_blocks/test_block_04.tscn" id="4_efxa6"]
+[ext_resource type="PackedScene" uid="uid://5y1aewj8a6gw" path="res://test_maps/test_map_04.tscn" id="8_kek77"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kek77"]
+radius = 0.2
+height = 1.4
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4c57u"]
+radius = 0.2
+height = 0.4
+
+[node name="top" type="Node3D" unique_id=2112564143]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
+script = ExtResource("1_nedis")
+
+[node name="< blocks >" type="Node3D" parent="." unique_id=292880750]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, 0)
+
+[node name="test_block_01" parent="< blocks >" unique_id=1702047598 instance=ExtResource("1_5vw27")]
+collision_layer = 2
+
+[node name="test_block_02" parent="< blocks >" unique_id=405375024 instance=ExtResource("2_kek77")]
+collision_layer = 2
+
+[node name="test_block_03" parent="< blocks >" unique_id=114612190 instance=ExtResource("3_4c57u")]
+collision_layer = 2
+
+[node name="test_block_04" parent="< blocks >" unique_id=1835174236 instance=ExtResource("4_efxa6")]
+collision_layer = 2
+
+[node name="< maps >" type="Node3D" parent="." unique_id=1553701854]
+
+[node name="test_map_01" parent="< maps >" unique_id=1890249449 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, -4.7683716e-07, 0, 0)
+
+[node name="test_map_02" parent="< maps >" unique_id=1559535364 instance=ExtResource("3_lquwl")]
+transform = Transform3D(0.99999976, 0, 0, 0, 1, 0, 0, 0, 0.99999976, -6.999999, 0, 13.999998)
+
+[node name="test_map_03" parent="< maps >" unique_id=1444001400 instance=ExtResource("4_7mycd")]
+transform = Transform3D(0.9999995, 0, 0, 0, 1, 0, 0, 0, 0.9999995, 31.999994, 0, 24.999996)
+
+[node name="test_map_04" parent="< maps >" unique_id=785420298 instance=ExtResource("8_kek77")]
+transform = Transform3D(0.99999976, 0, 0, 0, 1, 0, 0, 0, 0.99999976, -38.99998, 0, -70.99999)
+
+[node name="debug" type="Node3D" parent="." unique_id=240119220]
+visible = false
+script = ExtResource("4_1bvp3")
+
+[node name="Camera3D" type="Camera3D" parent="debug" unique_id=1256643408]
+
+[node name="debug_light" type="OmniLight3D" parent="." unique_id=428436240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 9, 0)
+light_energy = 14.143
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 0.0
+light_specular = 1.016
+omni_range = 96.0
+
+[node name="player" type="CharacterBody3D" parent="." unique_id=80739948]
+transform = Transform3D(0.99999976, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 0, 0.1, 0.8999993)
+
+[node name="receiver" type="Node3D" parent="player" unique_id=804221194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
+
+[node name="head" type="Node3D" parent="player" unique_id=1002178472]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, 0, 1, 0)
+
+[node name="camera" type="Camera3D" parent="player/head" unique_id=20038578]
+transform = Transform3D(1.0000004, 0, 0, 0, 1, 0, 0, 0, 1.0000004, 0, 0.2, 0)
+current = true
+
+[node name="collision_shape" type="CollisionShape3D" parent="player" unique_id=657394815]
+transform = Transform3D(0.99999225, 0, 0, 0, 1, 0, 0, 0, 0.99999225, 0, 0.7, 0)
+shape = SubResource("CapsuleShape3D_kek77")
+
+[node name="shape_cast" type="ShapeCast3D" parent="player" unique_id=1794053790]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, 0, 0.2, 0)
+shape = SubResource("CapsuleShape3D_4c57u")
+target_position = Vector3(0, -1.4, 0)
+max_results = 1
+collision_mask = 2
+
+[node name="block_check" type="Area3D" parent="player" unique_id=497475954]
+collision_mask = 2
+
+[node name="collision_shape" type="CollisionShape3D" parent="player/block_check" unique_id=1363271887]
+transform = Transform3D(0.99999225, 0, 0, 0, 1, 0, 0, 0, 0.99999225, 0, 0.7, 0)
+shape = SubResource("CapsuleShape3D_kek77")

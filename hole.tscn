@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c1eem8gvab25j"]
+
+[sub_resource type="TorusMesh" id="TorusMesh_oyft0"]
+inner_radius = 0.2
+outer_radius = 0.25
+
+[node name="hole" type="Node3D" unique_id=699970908]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1803645464]
+mesh = SubResource("TorusMesh_oyft0")

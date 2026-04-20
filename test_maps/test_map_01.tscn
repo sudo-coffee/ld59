@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://32ffi18kg783"]
+
+[ext_resource type="PackedScene" uid="uid://2bukkan4wna8" path="res://beacon.tscn" id="1_c6bkw"]
+[ext_resource type="PackedScene" uid="uid://xmnrkti2xvvq" path="res://test_blocks/test_block_01.tscn" id="2_2o2t4"]
+[ext_resource type="PackedScene" uid="uid://d08fgrk507yte" path="res://test_blocks/test_block_02.tscn" id="3_i2xoj"]
+[ext_resource type="PackedScene" uid="uid://yuau2lirtegs" path="res://test_blocks/test_block_03.tscn" id="4_svklg"]
+[ext_resource type="PackedScene" uid="uid://ld68ayaob8in" path="res://test_blocks/test_block_04.tscn" id="5_66iw7"]
+[ext_resource type="PackedScene" uid="uid://uontx1qpq1hw" path="res://hole.tscn" id="6_2o2t4"]
+
+[node name="test_map_01" type="Node3D" unique_id=1890249449]
+
+[node name="beacon" parent="." unique_id=1660618124 instance=ExtResource("1_c6bkw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="hole" parent="." unique_id=699970908 instance=ExtResource("6_2o2t4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
+
+[node name="< blocks >" type="Node3D" parent="." unique_id=2000590573]
+
+[node name="test_block_01" parent="< blocks >" unique_id=1702047598 instance=ExtResource("2_2o2t4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="test_block_02" parent="< blocks >" unique_id=1269322893 instance=ExtResource("3_i2xoj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="test_block_03" parent="< blocks >" unique_id=1737449833 instance=ExtResource("4_svklg")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="test_block_04" parent="< blocks >" unique_id=693540972 instance=ExtResource("5_66iw7")]

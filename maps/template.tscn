@@ -1,0 +1,313 @@
+[gd_scene format=3 uid="uid://b8dfy5kju2jec"]
+
+[ext_resource type="PackedScene" uid="uid://2bukkan4wna8" path="res://beacon.tscn" id="1_68lde"]
+[ext_resource type="PackedScene" uid="uid://t7nyrp0ialpy" path="res://blocks/circle_large_01.tscn" id="2_5j0w6"]
+[ext_resource type="PackedScene" uid="uid://ddb1cwlwsxc2o" path="res://blocks/circle_large_02.tscn" id="3_xgaoi"]
+[ext_resource type="PackedScene" uid="uid://dgijaywrtiie3" path="res://blocks/circle_small_01.tscn" id="4_v3mlq"]
+[ext_resource type="PackedScene" uid="uid://bwkjjexxdgiix" path="res://blocks/circle_small_02.tscn" id="5_y86f4"]
+[ext_resource type="PackedScene" uid="uid://bbw56u10ibve3" path="res://blocks/circle_small_03.tscn" id="6_gp0cx"]
+[ext_resource type="PackedScene" uid="uid://dngh7k4oiv543" path="res://blocks/circle_small_04.tscn" id="7_t0mug"]
+[ext_resource type="PackedScene" uid="uid://c1nn5x8w7fs5p" path="res://blocks/circle_small_05.tscn" id="8_hx84d"]
+[ext_resource type="PackedScene" uid="uid://bxs5t5ththdk0" path="res://blocks/circle_small_06.tscn" id="9_4w88w"]
+[ext_resource type="PackedScene" uid="uid://c5yxkrm6c8csg" path="res://blocks/diamond_large_01.tscn" id="10_h1gca"]
+[ext_resource type="PackedScene" uid="uid://che4v28udjds4" path="res://blocks/diamond_large_02.tscn" id="11_gxes4"]
+[ext_resource type="PackedScene" uid="uid://b0yjgjqmdpn61" path="res://blocks/diamond_small_01.tscn" id="12_0u66a"]
+[ext_resource type="PackedScene" uid="uid://068gu40fhu31" path="res://blocks/diamond_small_02.tscn" id="13_vf66v"]
+[ext_resource type="PackedScene" uid="uid://ddsmc88xyhl0b" path="res://blocks/diamond_small_03.tscn" id="14_h02r2"]
+[ext_resource type="PackedScene" uid="uid://bc1fdt0b2j2m1" path="res://blocks/diamond_small_04.tscn" id="15_rpxji"]
+[ext_resource type="PackedScene" uid="uid://cxsowt3ne8c5w" path="res://blocks/diamond_small_05.tscn" id="16_strog"]
+[ext_resource type="PackedScene" uid="uid://bkhias47shm27" path="res://blocks/diamond_small_06.tscn" id="17_uaplc"]
+[ext_resource type="PackedScene" uid="uid://clay0ymu7srkl" path="res://blocks/rectangle_huge_01.tscn" id="18_gyagn"]
+[ext_resource type="PackedScene" uid="uid://p2tc5og6d2gd" path="res://blocks/rectangle_huge_02.tscn" id="19_0384k"]
+[ext_resource type="PackedScene" uid="uid://ti55x77f8cbq" path="res://blocks/rectangle_long_01.tscn" id="20_ckcrt"]
+[ext_resource type="PackedScene" uid="uid://do2tv6djvpjsb" path="res://blocks/rectangle_long_02.tscn" id="21_q7bld"]
+[ext_resource type="PackedScene" uid="uid://1r88ea3igno6" path="res://blocks/rectangle_long_03.tscn" id="22_uoc7v"]
+[ext_resource type="PackedScene" uid="uid://dt3l8442u6lrk" path="res://blocks/rectangle_long_04.tscn" id="23_t05i6"]
+[ext_resource type="PackedScene" uid="uid://duxhiplqlb2tb" path="res://blocks/rectangle_medium_01.tscn" id="24_3lq7t"]
+[ext_resource type="PackedScene" uid="uid://dq0d3xux5u7rm" path="res://blocks/rectangle_medium_02.tscn" id="25_gl3rk"]
+[ext_resource type="PackedScene" uid="uid://r02rqitlo6i2" path="res://blocks/rectangle_medium_03.tscn" id="26_7reaw"]
+[ext_resource type="PackedScene" uid="uid://dhskk5gvbghov" path="res://blocks/rectangle_medium_04.tscn" id="27_tbqd7"]
+[ext_resource type="PackedScene" uid="uid://bv4e7o75qg85c" path="res://blocks/rectangle_medium_05.tscn" id="28_dbaws"]
+[ext_resource type="PackedScene" uid="uid://xp7ipuvfx6f" path="res://blocks/rectangle_medium_06.tscn" id="29_ebg0d"]
+[ext_resource type="PackedScene" uid="uid://bfosom8ldca4w" path="res://blocks/rectangle_short_01.tscn" id="30_jbgfb"]
+[ext_resource type="PackedScene" uid="uid://ehtnftservfi" path="res://blocks/rectangle_short_02.tscn" id="31_4gvwo"]
+[ext_resource type="PackedScene" uid="uid://dkt4a8emn2iya" path="res://blocks/rectangle_short_03.tscn" id="32_wp4sb"]
+[ext_resource type="PackedScene" uid="uid://wlmwcycwee6u" path="res://blocks/rectangle_short_04.tscn" id="33_or1n7"]
+[ext_resource type="PackedScene" uid="uid://8glyrlqbhjco" path="res://blocks/rectangle_short_05.tscn" id="34_3qg4y"]
+[ext_resource type="PackedScene" uid="uid://bjt1qg2qapt6u" path="res://blocks/rectangle_short_06.tscn" id="35_lk43r"]
+[ext_resource type="PackedScene" uid="uid://cpd3pbquaunre" path="res://blocks/rectangle_short_07.tscn" id="36_ya7ld"]
+[ext_resource type="PackedScene" uid="uid://dlm7gxwtppamv" path="res://blocks/rectangle_short_08.tscn" id="37_atu6c"]
+[ext_resource type="PackedScene" uid="uid://ofdianw5gi72" path="res://blocks/square_huge_01.tscn" id="38_0fsip"]
+[ext_resource type="PackedScene" uid="uid://b8erqp0t11tos" path="res://blocks/square_huge_02.tscn" id="39_ek0yl"]
+[ext_resource type="PackedScene" uid="uid://b3qxdpcmu33r2" path="res://blocks/square_huge_03.tscn" id="40_yq5fw"]
+[ext_resource type="PackedScene" uid="uid://dfeidkqr2ulks" path="res://blocks/square_huge_04.tscn" id="41_he63n"]
+[ext_resource type="PackedScene" uid="uid://0t65l6rv1t3s" path="res://blocks/square_large_01.tscn" id="42_yhb7n"]
+[ext_resource type="PackedScene" uid="uid://ciash7jdar6ib" path="res://blocks/square_large_02.tscn" id="43_pf745"]
+[ext_resource type="PackedScene" uid="uid://cna6wx5nbt0wl" path="res://blocks/square_large_03.tscn" id="44_0mdga"]
+[ext_resource type="PackedScene" uid="uid://o5tt4a814e6a" path="res://blocks/square_large_04.tscn" id="45_mm0xj"]
+[ext_resource type="PackedScene" uid="uid://cbdn5446c2apq" path="res://blocks/square_large_05.tscn" id="46_5c1qu"]
+[ext_resource type="PackedScene" uid="uid://by5olj261hp0c" path="res://blocks/square_large_06.tscn" id="47_f4nua"]
+[ext_resource type="PackedScene" uid="uid://5xpyy2oywtom" path="res://blocks/square_long_01.tscn" id="48_2abl5"]
+[ext_resource type="PackedScene" uid="uid://dupgkmyclmbst" path="res://blocks/square_long_02.tscn" id="49_n71oj"]
+[ext_resource type="PackedScene" uid="uid://c3vqldy3v7fg8" path="res://blocks/square_small_01.tscn" id="50_ytbbe"]
+[ext_resource type="PackedScene" uid="uid://bxnj3bwp1lawl" path="res://blocks/square_small_02.tscn" id="51_8ypff"]
+[ext_resource type="PackedScene" uid="uid://dd4a8vbh3xhto" path="res://blocks/square_small_03.tscn" id="52_b6i7o"]
+[ext_resource type="PackedScene" uid="uid://dw5ftsrorksu6" path="res://blocks/square_small_04.tscn" id="53_icp0n"]
+[ext_resource type="PackedScene" uid="uid://bm6574b4qrkt2" path="res://blocks/square_small_05.tscn" id="54_y8nfs"]
+[ext_resource type="PackedScene" uid="uid://con1w45mrdog6" path="res://blocks/square_small_06.tscn" id="55_8oa1a"]
+[ext_resource type="PackedScene" uid="uid://kva2y2k4tu5b" path="res://blocks/square_small_07.tscn" id="56_gvgda"]
+[ext_resource type="PackedScene" uid="uid://cnvsegvd5ren6" path="res://blocks/square_small_08.tscn" id="57_xo7jq"]
+[ext_resource type="PackedScene" uid="uid://458es4ws2xdy" path="res://blocks/triangle_huge_01.tscn" id="58_2vmn2"]
+[ext_resource type="PackedScene" uid="uid://cujsi4pm7tfnv" path="res://blocks/triangle_huge_02.tscn" id="59_mrmbm"]
+[ext_resource type="PackedScene" uid="uid://wb0dy40r2oyx" path="res://blocks/triangle_large_01.tscn" id="60_845nc"]
+[ext_resource type="PackedScene" uid="uid://3uxgaxfkn1j8" path="res://blocks/triangle_large_02.tscn" id="61_3c866"]
+[ext_resource type="PackedScene" uid="uid://bh5jeorjhxfyc" path="res://blocks/triangle_large_03.tscn" id="62_6aox2"]
+[ext_resource type="PackedScene" uid="uid://d22m5twg6kcd" path="res://blocks/triangle_large_04.tscn" id="63_4a8gb"]
+[ext_resource type="PackedScene" uid="uid://dyanerrt37abx" path="res://blocks/triangle_long_01.tscn" id="64_dntbh"]
+[ext_resource type="PackedScene" uid="uid://dgas2o867arl7" path="res://blocks/triangle_long_02.tscn" id="65_vpguc"]
+[ext_resource type="PackedScene" uid="uid://h8ko5rhm6kb1" path="res://blocks/triangle_long_03.tscn" id="66_q72fu"]
+[ext_resource type="PackedScene" uid="uid://bempabg35m3om" path="res://blocks/triangle_long_04.tscn" id="67_v1qbi"]
+[ext_resource type="PackedScene" uid="uid://bv3vsylpt6dig" path="res://blocks/triangle_long_05.tscn" id="68_i2ow6"]
+[ext_resource type="PackedScene" uid="uid://da0xj5xhwky4m" path="res://blocks/triangle_long_06.tscn" id="69_chdex"]
+[ext_resource type="PackedScene" uid="uid://cdhg0i525y2jg" path="res://blocks/triangle_small_01.tscn" id="70_hf2xu"]
+[ext_resource type="PackedScene" uid="uid://vbtl63cworpc" path="res://blocks/triangle_small_02.tscn" id="71_663cd"]
+[ext_resource type="PackedScene" uid="uid://d064p6x8hlmmk" path="res://blocks/triangle_small_03.tscn" id="72_wh356"]
+[ext_resource type="PackedScene" uid="uid://b7wh4nvjal5t6" path="res://blocks/triangle_small_04.tscn" id="73_nfug5"]
+[ext_resource type="PackedScene" uid="uid://10xn7bm0xals" path="res://blocks/triangle_small_05.tscn" id="74_icxj3"]
+[ext_resource type="PackedScene" uid="uid://dl4y2p7dy3hys" path="res://blocks/triangle_small_06.tscn" id="75_nkdof"]
+[ext_resource type="PackedScene" uid="uid://cmwg7jnybpwer" path="res://blocks/triangle_small_07.tscn" id="76_tfxcu"]
+[ext_resource type="PackedScene" uid="uid://ca5v64g80jsj3" path="res://blocks/triangle_small_08.tscn" id="77_muufg"]
+
+[node name="template" type="Node3D" unique_id=1751702325]
+
+[node name="beacon" parent="." unique_id=1660618124 instance=ExtResource("1_68lde")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+
+[node name="< blocks >" type="Node3D" parent="." unique_id=304878688]
+
+[node name="circle_large_01" parent="< blocks >" unique_id=247912631 instance=ExtResource("2_5j0w6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 0)
+
+[node name="circle_large_02" parent="< blocks >" unique_id=430384037 instance=ExtResource("3_xgaoi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 0)
+
+[node name="circle_small_01" parent="< blocks >" unique_id=1523143637 instance=ExtResource("4_v3mlq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
+
+[node name="circle_small_02" parent="< blocks >" unique_id=1294468824 instance=ExtResource("5_y86f4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 0, -2)
+
+[node name="circle_small_03" parent="< blocks >" unique_id=349234139 instance=ExtResource("6_gp0cx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, 3)
+
+[node name="circle_small_04" parent="< blocks >" unique_id=1528150125 instance=ExtResource("7_t0mug")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+
+[node name="circle_small_05" parent="< blocks >" unique_id=225846227 instance=ExtResource("8_hx84d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2)
+
+[node name="circle_small_06" parent="< blocks >" unique_id=560615538 instance=ExtResource("9_4w88w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9)
+
+[node name="diamond_large_01" parent="< blocks >" unique_id=631207611 instance=ExtResource("10_h1gca")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 2)
+
+[node name="diamond_large_02" parent="< blocks >" unique_id=383276792 instance=ExtResource("11_gxes4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 5)
+
+[node name="diamond_small_01" parent="< blocks >" unique_id=2124610514 instance=ExtResource("12_0u66a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 3)
+
+[node name="diamond_small_02" parent="< blocks >" unique_id=584647064 instance=ExtResource("13_vf66v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7)
+
+[node name="diamond_small_03" parent="< blocks >" unique_id=813762634 instance=ExtResource("14_h02r2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 7)
+
+[node name="diamond_small_04" parent="< blocks >" unique_id=773295282 instance=ExtResource("15_rpxji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 5)
+
+[node name="diamond_small_05" parent="< blocks >" unique_id=1691473167 instance=ExtResource("16_strog")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -1)
+
+[node name="diamond_small_06" parent="< blocks >" unique_id=1006987216 instance=ExtResource("17_uaplc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -2)
+
+[node name="rectangle_huge_01" parent="< blocks >" unique_id=373847971 instance=ExtResource("18_gyagn")]
+
+[node name="rectangle_long_01" parent="< blocks >" unique_id=984692437 instance=ExtResource("19_0384k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="rectangle_long_02" parent="< blocks >" unique_id=1237343302 instance=ExtResource("20_ckcrt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -14)
+
+[node name="rectangle_long_03" parent="< blocks >" unique_id=1910953597 instance=ExtResource("21_q7bld")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -9)
+
+[node name="rectangle_long_04" parent="< blocks >" unique_id=1546755572 instance=ExtResource("22_uoc7v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -11)
+
+[node name="rectangle_long_05" parent="< blocks >" unique_id=1612808902 instance=ExtResource("23_t05i6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -7)
+
+[node name="rectangle_medium_01" parent="< blocks >" unique_id=470945370 instance=ExtResource("24_3lq7t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -7)
+
+[node name="rectangle_medium_02" parent="< blocks >" unique_id=1053961646 instance=ExtResource("25_gl3rk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 5)
+
+[node name="rectangle_medium_03" parent="< blocks >" unique_id=1299701222 instance=ExtResource("26_7reaw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 9)
+
+[node name="rectangle_medium_04" parent="< blocks >" unique_id=71853415 instance=ExtResource("27_tbqd7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -7)
+
+[node name="rectangle_medium_05" parent="< blocks >" unique_id=118622545 instance=ExtResource("28_dbaws")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -7)
+
+[node name="rectangle_medium_06" parent="< blocks >" unique_id=1479218845 instance=ExtResource("29_ebg0d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -7)
+
+[node name="rectangle_short_01" parent="< blocks >" unique_id=1250108741 instance=ExtResource("30_jbgfb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, -2)
+
+[node name="rectangle_short_02" parent="< blocks >" unique_id=1005569747 instance=ExtResource("31_4gvwo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, -13)
+
+[node name="rectangle_short_03" parent="< blocks >" unique_id=1873166197 instance=ExtResource("32_wp4sb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, -7)
+
+[node name="rectangle_short_04" parent="< blocks >" unique_id=2058051767 instance=ExtResource("33_or1n7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -7)
+
+[node name="rectangle_short_05" parent="< blocks >" unique_id=1667489004 instance=ExtResource("34_3qg4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2)
+
+[node name="rectangle_short_06" parent="< blocks >" unique_id=889319980 instance=ExtResource("35_lk43r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+
+[node name="rectangle_short_07" parent="< blocks >" unique_id=109843347 instance=ExtResource("36_ya7ld")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, 0)
+
+[node name="rectangle_short_08" parent="< blocks >" unique_id=313580307 instance=ExtResource("37_atu6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -2)
+
+[node name="square_huge_01" parent="< blocks >" unique_id=655730455 instance=ExtResource("38_0fsip")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15)
+
+[node name="square_huge_02" parent="< blocks >" unique_id=698289516 instance=ExtResource("39_ek0yl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
+
+[node name="square_huge_03" parent="< blocks >" unique_id=1526864681 instance=ExtResource("40_yq5fw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11)
+
+[node name="square_huge_04" parent="< blocks >" unique_id=654436363 instance=ExtResource("41_he63n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7)
+
+[node name="square_large_01" parent="< blocks >" unique_id=339088728 instance=ExtResource("42_yhb7n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 8)
+
+[node name="square_large_02" parent="< blocks >" unique_id=817019887 instance=ExtResource("43_pf745")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 2)
+
+[node name="square_large_03" parent="< blocks >" unique_id=486044053 instance=ExtResource("44_0mdga")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, -12)
+
+[node name="square_large_04" parent="< blocks >" unique_id=362063351 instance=ExtResource("45_mm0xj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, 5)
+
+[node name="square_large_05" parent="< blocks >" unique_id=1861773061 instance=ExtResource("46_5c1qu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, 8)
+
+[node name="square_large_06" parent="< blocks >" unique_id=1069276170 instance=ExtResource("47_f4nua")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, -11)
+
+[node name="square_long_01" parent="< blocks >" unique_id=657545445 instance=ExtResource("48_2abl5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, -8)
+
+[node name="square_long_02" parent="< blocks >" unique_id=1255457488 instance=ExtResource("49_n71oj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, -4)
+
+[node name="square_small_01" parent="< blocks >" unique_id=1540032933 instance=ExtResource("50_ytbbe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -2)
+
+[node name="square_small_02" parent="< blocks >" unique_id=705888024 instance=ExtResource("51_8ypff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -2)
+
+[node name="square_small_03" parent="< blocks >" unique_id=1855180778 instance=ExtResource("52_b6i7o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
+
+[node name="square_small_04" parent="< blocks >" unique_id=2028452367 instance=ExtResource("53_icp0n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 9)
+
+[node name="square_small_05" parent="< blocks >" unique_id=864775196 instance=ExtResource("54_y8nfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 5)
+
+[node name="square_small_06" parent="< blocks >" unique_id=445292639 instance=ExtResource("55_8oa1a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 5)
+
+[node name="square_small_07" parent="< blocks >" unique_id=868410406 instance=ExtResource("56_gvgda")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 1)
+
+[node name="square_small_08" parent="< blocks >" unique_id=1822542754 instance=ExtResource("57_xo7jq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 0, 5)
+
+[node name="triangle_huge_01" parent="< blocks >" unique_id=489614016 instance=ExtResource("58_2vmn2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -7)
+
+[node name="triangle_huge_02" parent="< blocks >" unique_id=1537904617 instance=ExtResource("59_mrmbm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="triangle_large_01" parent="< blocks >" unique_id=1264004149 instance=ExtResource("60_845nc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 5)
+
+[node name="triangle_large_02" parent="< blocks >" unique_id=3724587 instance=ExtResource("61_3c866")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -2)
+
+[node name="triangle_large_03" parent="< blocks >" unique_id=2104548427 instance=ExtResource("62_6aox2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, -1)
+
+[node name="triangle_large_04" parent="< blocks >" unique_id=1486947642 instance=ExtResource("63_4a8gb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8)
+
+[node name="triangle_long_01" parent="< blocks >" unique_id=182257655 instance=ExtResource("64_dntbh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -2)
+
+[node name="triangle_long_02" parent="< blocks >" unique_id=2056495200 instance=ExtResource("65_vpguc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -5)
+
+[node name="triangle_long_03" parent="< blocks >" unique_id=502072292 instance=ExtResource("66_q72fu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 3)
+
+[node name="triangle_long_04" parent="< blocks >" unique_id=1530536181 instance=ExtResource("67_v1qbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, -2)
+
+[node name="triangle_long_05" parent="< blocks >" unique_id=1430356491 instance=ExtResource("68_i2ow6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+
+[node name="triangle_long_06" parent="< blocks >" unique_id=2031552302 instance=ExtResource("69_chdex")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 3)
+
+[node name="triangle_small_01" parent="< blocks >" unique_id=19438113 instance=ExtResource("70_hf2xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 7)
+
+[node name="triangle_small_02" parent="< blocks >" unique_id=1636517302 instance=ExtResource("71_663cd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 7)
+
+[node name="triangle_small_03" parent="< blocks >" unique_id=626928858 instance=ExtResource("72_wh356")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 7)
+
+[node name="triangle_small_04" parent="< blocks >" unique_id=279596138 instance=ExtResource("73_nfug5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, 3)
+
+[node name="triangle_small_05" parent="< blocks >" unique_id=274014009 instance=ExtResource("74_icxj3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 5)
+
+[node name="triangle_small_06" parent="< blocks >" unique_id=1364577911 instance=ExtResource("75_nkdof")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 7)
+
+[node name="triangle_small_07" parent="< blocks >" unique_id=1420438975 instance=ExtResource("76_tfxcu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 7)
+
+[node name="triangle_small_08" parent="< blocks >" unique_id=2060564061 instance=ExtResource("77_muufg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 5)

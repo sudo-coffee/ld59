@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://yuau2lirtegs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hwf82"]
+size = Vector3(2, 0.1, 2)
+
+[sub_resource type="PrismMesh" id="PrismMesh_wacl8"]
+left_to_right = 0.0
+size = Vector3(2, 2, 0.1)
+
+[node name="test_block_03" type="StaticBody3D" unique_id=1702047598]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1844743093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.05, 1)
+shape = SubResource("BoxShape3D_hwf82")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1464794791]
+transform = Transform3D(-4.371139e-08, 1, 4.371139e-08, 0, -4.371139e-08, 1, 1, 4.371139e-08, 1.9106855e-15, 1, 0.05, 1)
+mesh = SubResource("PrismMesh_wacl8")
