@@ -160,6 +160,10 @@ func _physics_process(delta):
         $player/head.rotation_degrees.x += look.y * delta
     $player/head.rotation_degrees.y -= look.x * delta
 
+    # Exit program
+    if Input.is_action_pressed("exit"):
+        get_tree().quit()
+
     # Get position of gravity
     var gravity_position = Vector3()
     for map in $"< maps >".get_children():
