@@ -280,5 +280,8 @@ func _physics_process(delta):
     #print("global_position : ", $player.global_position)
     #print()
 
+    # Normalize the player vector to fix a bug with Basis.slerp()
+    $player.global_basis = $player.global_basis.orthonormalized()
+
     # Apply player velocity
     $player.move_and_slide()
